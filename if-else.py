@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
-count = 10
+count = input()
 if count>0:
   print(count)
-  count = count-1
 else:
-  print("count = ",count)
+  print("count = ",-count)
