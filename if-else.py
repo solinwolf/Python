@@ -3,4 +3,4 @@ count = input()
 if count>0:
   print(count)
 else:
-  print("count = ",-count)
+  print(-count)
