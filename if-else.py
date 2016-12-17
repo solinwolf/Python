@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-count = input()
+count = int(input("input a interger:"))
 if count>=0:
-  print(count)
+  print("abs is : ",count)
 else:
-  print(-count)
+  print("abs is : ",-count)
